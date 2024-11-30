@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-    <script
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- <script
       src="https://kit.fontawesome.com/428748ad61.js"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <link rel="stylesheet" href="Mobile.css" />
     <link rel="shortcut icon" href="Images/Icons/logobg-03-removeBG.png" type="image/x-icon">
     <link
@@ -42,12 +42,12 @@
           <li><a href="#Skill" class="link">Skills</a></li>
           <li><a href="#Projects" class="link">Projects</a></li>
           <li><a href="#ContactMe" class="link">Contect</a></li>
-          <li><a href="#Footer" class="action_btn">Hire me</a></li>
+          <li><a href="#Footer" class="action_btn">Follow Me</a></li>
         </div>
       </nav>
       <div class="intro">
         <p class="firstPara">Hello, I'm</p>
-        <h2 class="animate__animated animate__fadeIn">VASUDEV PAREEK</h2>
+        <h2 class="animate__animated animate__fadeIn"  data-aos="flip-down">VASUDEV PAREEK</h2>
         <p>And This is My Resume</p>
       </div>
     </header>
@@ -56,7 +56,7 @@
     <main>
       <!-- /* My Resume section ---------- */ -->
 <!-- Updated HTML -->
-<section class="Resume-outer" id="Resume">
+<section class="Resume-outer" id="Resume" data-aos="fade-up" data-aos-delay="300">
   <p class="heading">My <span>Resume</span></p>
   <section class="MyResume">
     <div class="Edu-Certi">
@@ -64,21 +64,21 @@
       <div class="Education">
         <h2>Education</h2>
         <!-- Box 1 -->
-        <div class="Edu-Box">
+        <div class="Edu-Box" data-aos="fade-up" data-aos-delay="300">
           <span><i class="fa-solid fa-calendar-days"></i> JUN 2021 – MAR 2024</span>
           <h3>Bachelor of Computer Application</h3>
           <p class="light-Para">Completed a comprehensive program focusing on computer science fundamentals, software development, database management, and web technologies. (Graduate with 78.33%)</p>
           <span class="light-Para">Engineering College Bikaner</span>
         </div>
         <!-- Box 2 -->
-        <div class="Edu-Box">
+        <div class="Edu-Box" data-aos="fade-up" data-aos-delay="350">
           <span><i class="fa-solid fa-calendar-days"></i> MAR 2019 - APRIL 2020</span>
           <h3>Senior Secondary Education</h3>
           <p class="light-Para">Completed Higher Secondary Education. Achieved academic excellence with a strong percentage (82.60%).</p>
           <span class="light-Para">SHRI BHARTIYA ADRASH VIDHYA PEETH SSS, SARDARSHAHAR, CHURU.</span>
         </div>
         <!-- Box 3 -->
-        <div class="Edu-Box">
+        <div class="Edu-Box" data-aos="fade-up" data-aos-delay="300">
           <span><i class="fa-solid fa-calendar-days"></i> May 2024</span>
           <h3>Matrix Education</h3>
           <p class="light-Para">I completed my 10th-grade education with a strong academic record. This early exposure laid the foundation for my passion for computer science.</p>
@@ -89,7 +89,7 @@
       <div class="Education">
         <h2>Certificate and Internship</h2>
         <!-- Certificate Box 1 -->
-        <div class="Edu-Box certificate-box">
+        <div class="Edu-Box certificate-box" data-aos="fade-up" data-aos-delay="400">
           <span><i class="fa-solid fa-calendar-days"></i> May 2024 -- Present</span>
           <h3>Python Full Stack</h3>
           <p class="light-Para">I am currently pursuing a Python Full Stack Development course at Ducat Coaching Center. This course is equipping me with comprehensive skills in front-end and back-end technologies.</p>
@@ -99,7 +99,7 @@
           </div>
         </div>
         <!-- Certificate Box 2 -->
-        <div class="Edu-Box certificate-box">
+        <div class="Edu-Box certificate-box" data-aos="fade-up" data-aos-delay="350">
           <span><i class="fa-solid fa-calendar-days"></i> October—2023</span>
           <h3>Internship at OctaNet Sw. Services</h3>
           <p class="light-Para">I worked as an intern at OctaNet Software Services for one month, where I successfully completed a basic website project.</p>
@@ -109,7 +109,7 @@
           </div>
         </div>
         <!-- Certificate Box 3 -->
-        <div class="Edu-Box certificate-box">
+        <div class="Edu-Box certificate-box" data-aos="fade-up" data-aos-delay="400">
           <span><i class="fa-solid fa-calendar-days"></i> March - 2022</span>
           <h3>COURSE ON COMPUTER CONCEPTS (CCC)</h3>
           <p class="light-Para">The CCC (Course on Computer Concepts) is a computer course designed to introduce individuals to basic computer knowledge and skills.</p>
@@ -128,11 +128,11 @@
       <section class="FlexFix" id="About">
         <section class="aboutMe">
           <section class="aboutBox">
-            <div class="about about1">
+            <div class="about about1" data-aos="fade-right" data-aos-delay="350">
               <!-- <div class="aboutImg"></div> -->
                <img src="Images/demo6.jpg" alt="">
             </div>
-            <div class="about about2">
+            <div class="about about2 fade-left" data-aos="fade-left" data-aos-delay="350">
               <p class="heading">About <span>Me</span></p>
               <p>
                 Hi, I'm Vasudev—a passionate web developer in the making,
@@ -162,9 +162,9 @@
       </section>
 
       <!-- My skill section ----- -->
-      <section class="MySkill-section section" id="Skill">
+      <section class="MySkill-section section" id="Skill" >
         <div class="container">
-          <div class="row flex-complete">
+          <div class="row flex-complete" data-aos="fade-up" data-aos-delay="300">
             <h3>My Skills</h3>
             <p>
               Proficient in front-end development with hands-on experience in
@@ -176,7 +176,7 @@
           <!-- Another Box start -->
           <div class="row-skill-box">
             <!-- box 1 -->
-            <div class="row-outer">
+            <div class="row-outer" data-aos="fade-up" data-aos-delay="300">
               <h2>HTML</h2>
               <div class="row-inner">
                 <div class="inner-progress" id="HTML-progress">
@@ -185,7 +185,7 @@
               </div>
             </div>
             <!-- box 2 -->
-            <div class="row-outer">
+            <div class="row-outer" data-aos="fade-up" data-aos-delay="300">
               <h2>CSS</h2>
               <div class="row-inner">
                 <div class="inner-progress" id="css-progress">
@@ -194,7 +194,7 @@
               </div>
             </div>
             <!-- box 3 -->
-            <div class="row-outer">
+            <div class="row-outer" data-aos="fade-up" data-aos-delay="300">
               <h2>JavaScript</h2>
               <div class="row-inner">
                 <div class="inner-progress" id="javascript-progress">
@@ -203,7 +203,7 @@
               </div>
             </div>
             <!-- box 4 -->
-            <div class="row-outer">
+            <div class="row-outer" data-aos="fade-up" data-aos-delay="300">
               <h2>Bootstrap</h2>
               <div class="row-inner">
                 <div class="inner-progress" id="bootstrap-progress">
@@ -212,7 +212,7 @@
               </div>
             </div>
             <!-- box 5 -->
-            <div class="row-outer">
+            <div class="row-outer" data-aos="fade-up" data-aos-delay="300">
               <h2>SQL</h2>
               <div class="row-inner">
                 <div class="inner-progress" id="sql-progress">
@@ -221,7 +221,7 @@
               </div>
             </div>
             <!-- box 6 -->
-            <div class="row-outer">
+            <div class="row-outer" data-aos="fade-up" data-aos-delay="300">
               <h2>Python</h2>
               <div class="row-inner">
                 <div class="inner-progress" id="python-progress">
@@ -230,7 +230,7 @@
               </div>
             </div>
             <!-- box 7 -->
-            <div class="row-outer">
+            <div class="row-outer" data-aos="fade-up" data-aos-delay="300">
               <h2>Git and github</h2>
               <div class="row-inner">
                 <div class="inner-progress" id="Github-progress">
@@ -239,7 +239,7 @@
               </div>
             </div>
             <!-- box 8 -->
-            <div class="row-outer">
+            <div class="row-outer" data-aos="fade-up" data-aos-delay="300">
               <h2>Responsive Design</h2>
               <div class="row-inner">
                 <div class="inner-progress" id="Responsive-progress">
@@ -372,9 +372,14 @@
       </div>
     </footer>
 
+    <script src="script.js" defer></script>
     <script
       src="https://kit.fontawesome.com/428748ad61.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
